@@ -114,4 +114,3 @@ if [ "$NO_GREET" = "" ]; then
 fi
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-export RUSTFLAGS="-W absolute-paths-not-starting-with-crate -W anonymous-parameters -W bare-trait-objects -W box-pointers -W elided-lifetimes-in-paths -W missing-copy-implementations -W missing-debug-implementations -W missing-docs -W single-use-lifetimes -W trivial-casts -W trivial-numeric-casts"
