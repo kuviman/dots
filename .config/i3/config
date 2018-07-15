@@ -200,4 +200,4 @@ gaps inner 25
 bindsym $mod+Shift+t exec i3-msg "append_layout ~/.i3/workspace-3-term.json" && (termite &) && sleep 0.1 && (NO_GREET=1 termite &) && (NO_GREET=1 termite &)
 
 exec --no-startup-id ~/.fehbg
-exec --no-startup-id compton -b
+exec --no-startup-id compton -b -i 0.7
