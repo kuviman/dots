@@ -57,20 +57,20 @@ color7  = #c5c8c6
 color15 = #ffffff
 
 # Red
-color1  = #CC342B
-color9  = #CC342B
+color1  = #EC241B
+color9  = #EC241B
 
 # Green
-color2  = #198844
-color10 = #198844
+color2  = #19B844
+color10 = #19B844
 
 # Yellow
 color3  = #FBA922
 color11 = #FBA922
 
 # Blue
-color4  = #3971ED
-color12 = #3971ED
+color4  = #1921ED
+color12 = #1921ED
 
 # Purple
 color5  = #A36AC7
