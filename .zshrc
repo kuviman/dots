@@ -114,3 +114,6 @@ if [ "$NO_GREET" = "" ]; then
 fi
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+unsetopt AUTO_CD
+
+[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
