@@ -110,7 +110,7 @@ if [ "$TERM_PROGRAM" != "vscode" ] && [ "$NO_NEOFETCH" = "" ] && [ "$NO_GREET" =
     neofetch | lolcat
 fi
 if [ "$NO_GREET" = "" ]; then
-    shuf -n 1 $HOME/greetings.txt
+    shuf -n 1 $HOME/greetings.txt | glitchcat
 fi
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
