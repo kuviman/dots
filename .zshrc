@@ -108,8 +108,6 @@ export GEM_HOME=$(ruby -e 'print Gem.user_dir')
 
 if [ "$TERM_PROGRAM" != "vscode" ] && [ "$NO_NEOFETCH" = "" ] && [ "$NO_GREET" = "" ]; then
     neofetch | lolcat
-fi
-if [ "$NO_GREET" = "" ]; then
     shuf -n 1 $HOME/greetings.txt | glitchcat
 fi
 
