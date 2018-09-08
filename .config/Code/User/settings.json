@@ -1,0 +1,22 @@
+{
+    "yaml.format.enable": true,
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontFamily": "Source Code Pro",
+    "window.menuBarVisibility": "toggle",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "workbench.iconTheme": "vscode-icons",
+    "gitlens.codeLens.scopes": [
+        "document",
+        // "containers"
+    ],
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "indentRainbow.colors": [
+        "rgba(16,16,16,0.1)",
+        "rgba(16,16,16,0.3)",
+        "rgba(16,16,16,0.5)",
+    ]
+}
