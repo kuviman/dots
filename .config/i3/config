@@ -32,6 +32,7 @@ floating_modifier $mod
 # start a terminal
 #bindsym $mod+t exec i3-sensible-terminal
 bindsym $mod+t exec termite
+bindsym $mod+Shift+t exec NO_GREET=1 termite
 
 # kill focused window
 bindsym Mod1+F4 kill
@@ -198,7 +199,7 @@ gaps inner 25
 #exec --no-startup-id "i3-msg 'workspace 5:video; append_layout ~/.i3/workspace-5-video.json'"
 #exec --no-startup-id "i3-msg 'workspace 6; append_layout ~/.i3/workspace-6.json'"
 #exec --no-startup-id "i3-msg 'workspace 1:web"
-bindsym $mod+Shift+t exec i3-msg "append_layout ~/.i3/workspace-3-term.json" && (termite &) && sleep 0.1 && (NO_GREET=1 termite &) && (NO_GREET=1 termite &)
+#bindsym $mod+Shift+t exec i3-msg "append_layout ~/.i3/workspace-3-term.json" && (termite &) && sleep 0.1 && (NO_GREET=1 termite &) && (NO_GREET=1 termite &)
 
 exec --no-startup-id ~/.fehbg
 exec --no-startup-id compton -b -i 0.7
