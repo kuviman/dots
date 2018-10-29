@@ -203,4 +203,4 @@ gaps inner 25
 
 exec --no-startup-id ~/.fehbg
 exec --no-startup-id ~/.config/conky/launch.sh
-exec --no-startup-id compton -b -i 0.7
+exec --no-startup-id compton -b -i 0.9
