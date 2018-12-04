@@ -117,3 +117,5 @@ unsetopt AUTO_CD
 [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 
 alias l="lsd -la"
+alias ls="lsd"
+alias lt="lsd --tree"
