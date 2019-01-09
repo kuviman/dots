@@ -8,8 +8,7 @@
     "git.autofetch": true,
     "workbench.iconTheme": "vscode-icons",
     "gitlens.codeLens.scopes": [
-        "document",
-        // "containers"
+        "document"
     ],
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
@@ -17,8 +16,10 @@
     "indentRainbow.colors": [
         "rgba(16,16,16,0.1)",
         "rgba(16,16,16,0.3)",
-        "rgba(16,16,16,0.5)",
+        "rgba(16,16,16,0.5)"
     ],
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Fira Code"
+    "editor.fontFamily": "Fira Code",
+    "csharp.referencesCodeLens.enabled": false,
+    "latex-workshop.view.pdf.viewer": "tab"
 }
