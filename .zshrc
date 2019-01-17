@@ -68,8 +68,8 @@ plugins=(
 # User configuration
 
 # If not running interactively, do not do anything
-[[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && exec tmux
+# [[ $- != *i* ]] && return
+# [[ -z "$TMUX" ]] && exec tmux
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
