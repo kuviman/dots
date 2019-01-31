@@ -106,6 +106,43 @@ animation-charging-3 = 
 animation-charging-4 = 
 animation-charging-framerate = 750
 
+[module/bspwm]
+type = internal/bspwm
+
+ws-icon-0 = web;
+ws-icon-1 = code;
+ws-icon-2 = term;
+ws-icon-3 = chat;
+ws-icon-4 = video;
+ws-icon-default = 
+
+format = <label-state> <label-mode>
+
+label-urgent = %index%. %icon%
+label-urgent-foreground = #000000
+label-urgent-background = #bd2c40
+label-urgent-underline = #9b0a20
+label-urgent-font = 4
+label-urgent-padding = 4
+
+label-focused = %index%. %icon%
+label-focused-foreground = #fff
+label-focused-background = #773f3f3f
+label-focused-underline = #c9665e
+label-focused-font = 4
+label-focused-padding = 4
+
+label-occupied= %index%. %icon%
+label-occupied-foreground = #55
+label-occupied-underline = #777
+label-occupied-font = 4
+label-occupied-padding = 4
+
+label-empty= %index%. %icon%
+label-empty-foreground = #55
+label-empty-font = 4
+label-empty-padding = 4
+
 [module/i3]
 type = internal/i3
 
