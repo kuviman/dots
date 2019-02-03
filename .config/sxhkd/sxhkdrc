@@ -1,3 +1,6 @@
+super + Escape
+	pkill -USR1 -x sxhkd
+
 super + t
 	termite
 
@@ -6,6 +9,9 @@ super + d
 
 super + alt + Escape
 	bspc quit
+
+super + f
+    bspc node -t \~fullscreen
 
 alt + {_,shift + }F4
 	bspc node -{c,k}
