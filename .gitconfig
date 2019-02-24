@@ -1,0 +1,7 @@
+[user]
+	name = kuviman
+	email = kuviman@gmail.com
+[credential]
+	helper = cache
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
