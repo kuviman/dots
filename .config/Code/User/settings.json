@@ -6,7 +6,6 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "workbench.iconTheme": "vscode-icons",
     "gitlens.codeLens.scopes": [
         "document"
     ],
@@ -45,5 +44,14 @@
         "*.synctex.gz",
         "*.fdb_latexmk"
     ],
-    "editor.codeLens": false
+    "editor.codeLens": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "vscode-icons",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
 }
