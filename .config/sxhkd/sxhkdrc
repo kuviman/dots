@@ -16,6 +16,9 @@ super + alt + Escape
 super + f
     bspc node -t \~fullscreen
 
+super + l
+    dm-tool lock
+
 alt + {_,shift + }F4
 	bspc node -{c,k}
 
