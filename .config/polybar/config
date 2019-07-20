@@ -1,6 +1,5 @@
 [bar/top]
 wm-restack=bspwm
-monitor = eDP-1
 width = 100%
 height = 34
 
@@ -26,7 +25,6 @@ modules-right = wireless-network wired-network battery
 
 [bar/bottom]
 wm-restack=bspwm
-monitor = eDP-1
 bottom = true
 width = 100%
 height = 27
