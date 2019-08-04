@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-fill '/home/kuviman/Dropbox/images/wallpapers/black-sky.jpg' 
+feh --no-fehbg --bg-fill '/home/kuviman/Dropbox/images/wallpapers/black-sky.jpg' 
