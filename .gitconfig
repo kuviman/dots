@@ -5,3 +5,5 @@
 	helper = cache
 [url "git@gitlab.com:"]
 	insteadOf = https://gitlab.com/
+[status]
+	submoduleSummary = true
