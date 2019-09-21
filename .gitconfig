@@ -7,3 +7,5 @@
 	insteadOf = https://gitlab.com/
 [status]
 	submoduleSummary = true
+[core]
+	excludesfile = /home/kuviman/.gitignore
