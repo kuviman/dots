@@ -56,7 +56,8 @@ modules-left = bspwm i3
 modules-right = cpu memory filesystem filesystem2
 
 [module/backlight]
-type = internal/xbacklight
+type = internal/backlight
+card = intel_backlight
 format = <ramp> <bar>
 
 ramp-0 = 
