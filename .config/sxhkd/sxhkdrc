@@ -13,6 +13,9 @@ super + r
 super + alt + Escape
 	bspc quit
 
+super + u
+    bspc node -t \~floating
+
 super + f
     bspc node -t \~fullscreen
 
