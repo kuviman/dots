@@ -21,7 +21,6 @@
     "editor.fontFamily": "Fira Code",
     "csharp.referencesCodeLens.enabled": false,
     "latex-workshop.view.pdf.viewer": "tab",
-    "latex-workshop.latex.clean.enabled": true,
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
         "*.bbl",
@@ -54,5 +53,11 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "python.jediEnabled": false
+    "python.jediEnabled": false,
+    "window.zoomLevel": 0,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "latex-workshop.latex.autoClean.run": "onBuilt"
 }
