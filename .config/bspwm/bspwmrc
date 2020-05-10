@@ -5,7 +5,7 @@ lxpolkit &
 ~/.config/polybar/launch.sh &
 ~/.fehbg
 ~/.config/conky/launch.sh
-compton -b -i 0.9
+picom -b -i 0.9
 
 bspc monitor -d web code term chat video
 
