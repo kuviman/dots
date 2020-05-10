@@ -111,8 +111,8 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 export GEM_HOME=$(ruby -e 'print Gem.user_dir')
 
 if [ "$TERM_PROGRAM" != "vscode" ] && [ "$NO_NEOFETCH" = "" ] && [ "$NO_GREET" = "" ]; then
-    neofetch | lolcat
-    shuf -n 1 $HOME/greetings.txt | glitchcat
+    #neofetch | lolcat
+    #shuf -n 1 $HOME/greetings.txt | glitchcat
 fi
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'

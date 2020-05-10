@@ -1,5 +1,7 @@
 {
     "yaml.format.enable": true,
+    "java.signatureHelp.enabled": true,
+    "editor.detectIndentation": false,
     "editor.formatOnSave": true,
     "terminal.integrated.fontFamily": "Source Code Pro",
     "window.menuBarVisibility": "toggle",
@@ -43,7 +45,6 @@
         "*.synctex.gz",
         "*.fdb_latexmk"
     ],
-    "editor.codeLens": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.iconTheme": "vscode-icons",
@@ -59,5 +60,14 @@
         "editor.defaultFormatter": "xaver.clang-format"
     },
     "java.errors.incompleteClasspath.severity": "ignore",
-    "latex-workshop.latex.autoClean.run": "onBuilt"
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "vsicons.dontShowNewVersionMessage": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "clang-format.fallbackStyle": "WebKit",
+    "rust-analyzer.completion.addCallArgumentSnippets": false,
+    "rust-analyzer.inlayHints.chainingHints": false,
+    "rust-analyzer.inlayHints.typeHints": false,
+    "rust-analyzer.inlayHints.parameterHints": false
 }
