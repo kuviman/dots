@@ -9,3 +9,4 @@
 	submoduleSummary = true
 [core]
 	excludesfile = /home/kuviman/.gitignore
+	editor = vim
