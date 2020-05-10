@@ -132,3 +132,5 @@ PERL_MM_OPT="INSTALL_BASE=/home/kuviman/perl5"; export PERL_MM_OPT;
 
 bindkey "^[[1~" beginning-of-line
 bindkey "^[[4~" end-of-line
+
+EDITOR=vim
