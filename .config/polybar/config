@@ -236,9 +236,10 @@ bar-used-empty-foreground = #444444
 [module/filesystem]
 type = internal/fs
 mount-0 = /
+mount-1 = /disk2
 fixed-values = true
 format-mounted = <label-mounted> <bar-used>
-label-mounted = DISK
+label-mounted = %mountpoint%: %percentage_used%%
 
 bar-used-width = 10
 bar-used-foreground-0 = #aaff77
