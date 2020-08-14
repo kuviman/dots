@@ -50,9 +50,11 @@
     "workbench.iconTheme": "vscode-icons",
     "files.exclude": {
         "**/.classpath": true,
+        "**/.factorypath": true,
         "**/.project": true,
         "**/.settings": true,
-        "**/.factorypath": true
+        "**/Cargo.lock": true,
+        "**/target/": true
     },
     "python.jediEnabled": false,
     "window.zoomLevel": 0,
