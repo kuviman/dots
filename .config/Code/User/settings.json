@@ -20,7 +20,7 @@
         "rgba(16,16,16,0.5)"
     ],
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "JetBrains Mono",
     "csharp.referencesCodeLens.enabled": false,
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.clean.fileTypes": [
@@ -57,7 +57,7 @@
         "**/target/": true
     },
     "python.jediEnabled": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
