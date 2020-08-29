@@ -115,7 +115,7 @@ if [ "$TERM_PROGRAM" != "vscode" ] && [ "$NO_NEOFETCH" = "" ] && [ "$NO_GREET" =
     #shuf -n 1 $HOME/greetings.txt | glitchcat
 fi
 
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
 unsetopt AUTO_CD
 
 [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
