@@ -1,9 +1,8 @@
 {
     "yaml.format.enable": true,
     "java.signatureHelp.enabled": true,
-    "editor.detectIndentation": false,
     "editor.formatOnSave": true,
-    "terminal.integrated.fontFamily": "Source Code Pro",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "window.menuBarVisibility": "toggle",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
@@ -13,6 +12,10 @@
     ],
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
+    },
+    "search.exclude": {
+        "**/Cargo.lock": true,
+        "**/target": true
     },
     "indentRainbow.colors": [
         "rgba(16,16,16,0.1)",
@@ -53,17 +56,92 @@
         "**/.factorypath": true,
         "**/.project": true,
         "**/.settings": true,
-        "**/Cargo.lock": true,
         "**/target/": true
     },
     "python.jediEnabled": false,
-    "window.zoomLevel": 2,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.renderWhitespace": "selection",
+    "python.linting.pylintEnabled": false,
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
     "java.errors.incompleteClasspath.severity": "ignore",
     "latex-workshop.latex.autoClean.run": "onBuilt",
+    "cSpell.userWords": [
+        "Action",
+        "Assault",
+        "codegame",
+        "Color",
+        "Colored",
+        "consts",
+        "cooldown",
+        "Custom",
+        "Defines",
+        "Empty",
+        "emscripten",
+        "Explosion",
+        "Fields",
+        "framebuffer",
+        "gameplay",
+        "geng",
+        "glium",
+        "glium's",
+        "Idle",
+        "Jump",
+        "Ladder",
+        "Launcher",
+        "lifeshot",
+        "Loot",
+        "ludumdare",
+        "mine",
+        "oneshot",
+        "pathfind",
+        "pistol",
+        "planted",
+        "Platform",
+        "Player",
+        "Preparing",
+        "repr",
+        "rgba",
+        "Rifle",
+        "Rocket",
+        "Strategy",
+        "struct",
+        "Tile",
+        "Triggered",
+        "Type",
+        "Unit",
+        "Vertex",
+        "wasm",
+        "Weapon",
+        "автообновления",
+        "выстрелена",
+        "логирование",
+        "лута",
+        "лутом",
+        "отрисовки",
+        "отрисовывать",
+        "Репликатор",
+        "тайлов",
+        "юнит",
+        "юнита",
+        "юнитами",
+        "юнитов",
+        "юниту"
+    ],
     "vsicons.dontShowNewVersionMessage": true,
+    "remote.SSH.remotePlatform": {
+        "dinic.codeforces.com": "linux"
+    },
+    "discord.detailsDebugging": "Defeaturing",
+    "discord.detailsEditing": "Implementing stuff",
+    "discord.detailsIdle": "Just Chilling",
+    "discord.largeImageIdle": "Just Chilling",
+    "discord.lowerDetailsIdle": ":chill:",
+    "discord.workspaceElapsedTime": true,
+    "discord.lowerDetailsDebugging": ":smile:",
+    "discord.lowerDetailsEditing": "{currentline}:{currentcolumn}",
+    "rust-analyzer.displayInlayHints": false,
     "[java]": {
         "editor.defaultFormatter": "redhat.java"
     },
@@ -71,5 +149,48 @@
     "rust-analyzer.completion.addCallArgumentSnippets": false,
     "rust-analyzer.inlayHints.chainingHints": false,
     "rust-analyzer.inlayHints.typeHints": false,
-    "rust-analyzer.inlayHints.parameterHints": false
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.languageServer": "Pylance",
+    "rust-analyzer.inlayHints.parameterHints": false,
+    "terminal.integrated.shell.windows": "pwsh.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-NoLogo"
+    ],
+    "cSpell.enabled": true,
+    "cSpell.enableFiletypes": [
+        "log"
+    ],
+    "cmake.configureOnOpen": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "d.servedPath": "C:\\Users\\kuviman\\AppData\\Roaming\\code-d\\bin\\serve-d.exe",
+    "files.associations": {
+        "*.fs": "fsharp"
+    },
+    "FSharp.useSdkScripts": true,
+    "FSharp.suggestGitignore": false,
+    "[rust]": {
+        "editor.defaultFormatter": "statiolake.vscode-rustfmt"
+    },
+    "files.autoSave": "afterDelay",
+    "pascal.formatter.engine": "ptop",
+    "pascal.formatter.enginePath": "ptop",
+    "python.showStartPage": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "rust-client.engine": "rust-analyzer",
+    "rust-analyzer.lens.enable": false,
+    "terminal.external.windowsExec": "",
+    "explorer.compactFolders": false,
+    "window.restoreWindows": "none",
+    "rust-analyzer.cargo.allFeatures": true,
+    "cSpell.language": "en,ru",
+    "files.watcherExclude": {
+        "**/target/**": true
+    },
+    "redhat.telemetry.enabled": false,
+    "window.zoomLevel": 2
 }

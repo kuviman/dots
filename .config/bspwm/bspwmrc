@@ -1,5 +1,7 @@
 #! /bin/sh
 
+xset s off -dpms
+
 sxhkd &
 lxpolkit &
 ~/.config/polybar/launch.sh &

@@ -10,3 +10,5 @@
 [core]
 	excludesfile = /home/kuviman/.gitignore
 	editor = vim
+[pull]
+	ff = only
